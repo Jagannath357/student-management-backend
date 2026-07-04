@@ -18,7 +18,7 @@ public class CorsConfig {
         config.setAllowCredentials(true);
 
         config.setAllowedOriginPatterns(Arrays.asList(
-                "https://wonderful-queijadas-ad8e24.netlify.app//",
+                "https://wonderful-queijadas-ad8e24.netlify.app/",
                 "http://localhost:4200"
         ));
 
