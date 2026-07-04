@@ -10,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins = "http://localhost:4200") // Connects seamlessly with your Angular client layout
 public class CourseController {
 
     @Autowired

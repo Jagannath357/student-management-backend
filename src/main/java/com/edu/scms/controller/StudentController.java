@@ -19,7 +19,6 @@ import com.edu.scms.repository.StudentRepository;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://localhost:4200")
 public class StudentController {
 
  @Autowired
